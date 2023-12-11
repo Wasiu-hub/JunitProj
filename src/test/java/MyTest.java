@@ -1,6 +1,4 @@
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 public class MyTest {
 
@@ -24,4 +22,13 @@ public class MyTest {
         System.out.println("Executing after test case");
     }
 
+    @BeforeClass
+    public static void onetimeBefore(){
+        System.out.println("One time execution before starting test suite");
+    }
+
+    @AfterClass
+    public static void afterCompletionOfTestsuite(){
+        System.out.println("After test completion of test suite");
+    }
 }
