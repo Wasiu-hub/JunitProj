@@ -1,0 +1,11 @@
+unit testing is mainly used by the developer to write test cases
+-for testing, u need to execute multiple test cases
+- so u use junit to test many cases. junit is a frame work to execute multiple test suits, test suits has multiple test cases
+
+-pom.xml is the configuration file for this project where you bring in the dependencies.
+- whatever dependencies specified, Maven will download it and attach the binaries into the project.
+
+-@Test- is a test annotation coming from junit, when there is no option it shows red
+- maven repository is cloud-based
+-junit is a jar, it comes from hamcrest, so junit is internally dependent on hamcrest
+- indirect dependencies are also downloaded
