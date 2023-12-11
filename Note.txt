@@ -9,3 +9,5 @@ unit testing is mainly used by the developer to write test cases
 - maven repository is cloud-based
 -junit is a jar, it comes from hamcrest, so junit is internally dependent on hamcrest
 - indirect dependencies are also downloaded
+
+-@before annotation
