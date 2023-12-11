@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,4 +18,10 @@ public class MyTest {
     public void before(){
         System.out.println("Before executing every test case");
     }
+
+    @After
+    public void after(){
+        System.out.println("Executing after test case");
+    }
+
 }
